@@ -1,0 +1,7 @@
+{
+  "name": "TBFA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
