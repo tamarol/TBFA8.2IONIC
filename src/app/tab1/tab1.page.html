@@ -1,17 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="dark">
+    <ion-title>Inicio</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="primary"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header style="text-align: center;">
+      <ion-card-title>Nivel De Objeto Miticas+</ion-card-title>
+    </ion-card-header>
+    <ion-img src="/assets/icon/ilvlm.png"></ion-img>
+    <ion-card-content >
+      <p style="text-align: justify;">En Míticas , el afijo de temporada será el de Despierta (en lugar de Cautivadora que fue el que estuvo en la anterior temporada). Habrán 4 obeliscos del Imperio Negro en las mazmorras: al pulsar en uno, entrarán en el reino de N'Zoth, en el cual podrán saltarse a los enemigos normales, ¡pero deberán enfrentarse contra un teniente!</p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header style="text-align: center;">
+      <ion-card-title>Nivel De Objeto PVP</ion-card-title>
+    </ion-card-header>
+    <ion-img src="/assets/icon/ilvlpvp.png"></ion-img>
+    <ion-card-content >
+      <p style="text-align: justify;">
+      El sistema de conquista que conocias desde la temporada 1 regresará, con las recompensas indicadas en la siguiente tabla.
+    </p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

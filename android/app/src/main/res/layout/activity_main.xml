@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:backgroundTint="#3A303C"
+  android:foregroundTint="#675353"
+  android:rotation="-360"
+  android:rotationX="-360"
+  android:rotationY="-360"
+  android:visibility="visible"
+  tools:context=".MainActivity">
+
+  <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="-360"
+    android:rotationX="-360"
+    android:rotationY="-360"
+    android:visibility="visible"
+    app:layout_anchor="@+id/imageView2"
+    app:layout_anchorGravity="center"
+    app:srcCompat="@mipmap/ic_index_foreground"
+    tools:visibility="visible" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
